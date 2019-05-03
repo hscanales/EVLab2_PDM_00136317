@@ -1,4 +1,4 @@
-package tech.visuallatam.evaluado2
+package tech.visuallatam.evaluado2.fragmentos
 
 
 import android.content.Context
@@ -9,6 +9,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import kotlinx.android.synthetic.main.fragment_content.view.*
+import tech.visuallatam.evaluado2.R
 
 
 private const val ARG_CONTENT = "CONTENT"
