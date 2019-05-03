@@ -4,9 +4,8 @@ import android.content.Context
 import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
-import kotlinx.android.synthetic.main.fragment_fake_bar.view.*
+import kotlinx.android.synthetic.main.fragment_botones.view.*
 import java.lang.RuntimeException
 
 val ARG_ACTION_1: String = "action_1"
@@ -62,7 +61,7 @@ class Botones : Fragment() {
             inflater: LayoutInflater,
             container: ViewGroup?,
             savedInstanceState: Bundle?) =
-            inflater.inflate(R.layout.fragment_fake_bar,
+            inflater.inflate(R.layout.fragment_botones,
                     container, false).apply {
                 bt_action1.apply {
                     text = action1

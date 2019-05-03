@@ -32,6 +32,7 @@ class ContentFragment : Fragment() {
         arguments?.let {
             content = it.getString(ARG_CONTENT)
         }
+
     }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
